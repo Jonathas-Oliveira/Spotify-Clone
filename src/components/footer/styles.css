@@ -1,0 +1,70 @@
+.container-footer{
+    margin-top: 260px;
+    width:100%;
+    height: 800px;
+    background: black;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 0.9rem;
+    color: silver;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin-top: 30px;
+}
+.maleavel{
+    cursor: pointer;
+    transition: color 0.2s;
+    font-size: 0.85rem;
+    font-family: 'Roboto';
+}
+.maleavel:hover{
+    color: #1ED03F;
+}
+p{
+    margin-top: 20px;
+}
+.molde{
+    margin-left: 20px;
+    width:40px;
+    margin-top: 40px;
+    border-radius: 20px;
+    background: #222326;
+    height: 40px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.icon{
+    margin-right: 17px;
+    margin-bottom: 12px;
+    width:22px;
+}
+.icons{
+    
+    display: flex;
+    flex-direction: row;
+}
+.describ{
+    font-size:0.7rem;
+    color:silver;
+    width: 480px;
+    margin-top: 50px;
+    transition: color 0.2s;
+
+    cursor: pointer;
+}
+.describ:hover{
+    color: #1ED03F;
+}
+.contrat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

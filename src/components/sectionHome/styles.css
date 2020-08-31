@@ -1,0 +1,89 @@
+.section-container{
+    height: 250px;
+    width: 100%;
+}
+h1{
+    margin-top: 9rem;
+    margin-left: 5rem ;
+    color:#FFF;
+    font-size: 2.4rem;
+}
+p{
+    margin-left: 1rem;
+    color:#FFF;
+    font-size: 0.9rem;
+
+}
+.versaoBetaButton{
+    margin-top:2rem;
+    margin-left:6rem;
+    width:290px;
+    height: 45px;
+    border-radius: 20px;
+    font-size:1.2rem;
+    background: #1ED03F;
+    transition: background-color 0.6s;
+    color: #082E2F;
+    font-family: 'Roboto';
+    border-color: none;
+    font-weight: 500;
+
+    cursor: pointer;
+    border: none;
+	padding: 0;
+	font: inherit;
+	outline: inherit;
+}
+.versaoBetaButton:hover{
+    background:#FFF;
+
+
+}
+.titleweb{
+    display: none
+}
+
+@media(min-width:800px){
+    .section-container{
+        margin-left: 14%;
+        width: 800px;
+        height: 290px;
+
+    }
+    .h1{
+        display: none;
+        
+    }
+    .p{
+        display: none;
+    }
+    .titleweb{
+        display: block;
+        margin-top: 10%;
+        margin-left: 20%;
+
+    }
+    .h2{
+        margin-bottom: 10px;
+        margin-left: 15%;
+    }
+    .TITLE{
+        font-size:7.6rem ;
+        color: #FFF;
+        font-family: 'Roboto';
+        font-weight: 500;
+
+        font-weight: bold;
+    }
+    .p2{
+        margin-bottom: 0;
+    }
+    .describP{
+        font-size: 1.0rem;
+        margin-bottom: 0;
+    }
+    .versaoBetaButton{
+        display: block;
+        margin-left: 39%;
+    }
+}
