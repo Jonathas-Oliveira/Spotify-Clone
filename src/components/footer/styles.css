@@ -68,3 +68,37 @@ p{
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media(min-width:800px){
+    .container-footer{
+    height: 700px;
+    }
+    .contrat{
+        display: flex;
+        flex-direction: row;
+    }
+    .footerimg{
+        margin-top: 10%;
+    }
+    .columns{
+        margin-left: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        margin-top: 9%;
+    }
+    .describ{
+        width: 80px;
+        margin-left: 50px;
+    }
+    .icon{
+        margin-right: 95px;
+    }
+    .icons{
+    margin-left:77% ;
+    }
+    .uteis{
+        margin-right: 15%;
+    }
+}

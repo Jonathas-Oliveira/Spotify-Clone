@@ -9,7 +9,22 @@ function Footer (props){
    
     return (
         <div  className="container-footer">
-            <img  src={logo} alt=""/>
+            <img className='footerimg' src={logo} alt=""/>
+            <div className="icons">
+               <div className="molde">
+                    <img className='icon' src={instagram} alt=""/>
+                </div>
+                <div className="molde">
+                    <img className='icon' src={twitter} alt=""/>
+                </div>
+                <div className="molde">
+                    <img className='icon' src={facebook} alt=""/>
+                </div>
+            </div>
+            <div className="columns">
+
+           
+
             <div className="empresa">
                 <p className='title'>EMPRESA</p>
                 <p className='maleavel'>Sobre</p>
@@ -29,17 +44,8 @@ function Footer (props){
                 <p className='maleavel'>Player da Web</p>
                 <p className='maleavel'>Aplicarivo móvel grátis</p>
             </div>
-            <div className="icons">
-               <div className="molde">
-                    <img className='icon' src={instagram} alt=""/>
-                </div>
-                <div className="molde">
-                    <img className='icon' src={twitter} alt=""/>
-                </div>
-                <div className="molde">
-                    <img className='icon' src={facebook} alt=""/>
-                </div>
             </div>
+          
             <div className='contrat'>
                 <p className="describ">Legal</p>
                 <p className="describ">Centro de Privacidade</p>
